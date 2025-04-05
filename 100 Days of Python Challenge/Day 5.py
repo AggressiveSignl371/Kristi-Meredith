@@ -10,13 +10,13 @@ symb_nbr = int(input("How many symbols would you like? "))
 numb_nbr = int(input("How many numbers would you like? "))
 
 password = []
-for letter in range(1, letter_nbr+1):
+for letter in range(letter_nbr):
     pass_letter = random.choices(letters)
     password += pass_letter
-for symbol in range(1, symb_nbr+1):
+for symbol in range(symb_nbr):
     pass_symb = random.choices(symbols)
     password += pass_symb
-for number in range(1, numb_nbr+1):
+for number in range(numb_nbr):
     pass_number = random.choices(numbers)
     password += pass_number
 
